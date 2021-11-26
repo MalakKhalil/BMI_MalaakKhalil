@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">My ApplicationBMI</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="dontHaveAccount">if you do not have an account</string>
+    <string name="information">Information</string>
+    <string name="gender">Gender</string>
+    <string name="date_of_birdth">Date Of Birdth</string>
+    <string name="female">Female</string>
+    <string name="Date">18/3/2020</string>
+    <string name="plus">+</string>
+    <string name="plusHeight">+</string>
+    <string name="weight">Weight</string>
+    <string name="date">18_3_2020</string>
+    <string name="height">Height</string>
+    <string name="minus">-</string>
+    <string name="zero">0</string>
+    <string name="male">Male</string>
+    <string name="minusWeight">-</string>
+    <string name="save_data">Save Data</string>
+    <string name="kg">kg</string>
+    <string name="cm">cm</string>
+    <string name="zeroweight">0</string>
+    <string name="name">Name</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="create">Create</string>
+    <string name="login">Login</string>
+    <string name="you_have_an_account">You Have An Account?</string>
+    <string name="userName">name</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="if_you_already_have_an_account_log_in">if you already have an account, log in</string>
+    <string name="username">Username</string>
+    <string name="log_in">LOG IN</string>
+    <string name="you_don_t_have_an_account">You Don\'t Have An Account ?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="next">TODO</string>
+    <string name="nextbtn">Next</string>
+    <string name="password">Password</string>
+    <string name="re_password">Re_Password</string>
+    <string name="complete_your_information">Complete Your</string>
+    <string name="zerokg">0</string>
+    <string name="string_weight" />
+    <string name="BirdthDate">+</string>
+    <string name="Length">Height</string>
+    <string name="length">Length</string>
+    <string name="dateofbirdth">18/3/2020</string>
+    <string name="minusLength">-</string>
+    <string name="complete_your">Complete Your</string>
+    <string name="plusweight">+</string>
+    <string name="new_record">New Record</string>
+    <string name="datenew_record">Date</string>
+    <string name="time">Time</string>
+    <string name="inputtime">Time</string>
+
+
+</resources>
