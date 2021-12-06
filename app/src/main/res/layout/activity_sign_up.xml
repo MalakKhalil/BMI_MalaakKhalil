@@ -83,7 +83,7 @@
             tools:ignore="TextContrastCheck" />
 
         <TextView
-            android:id="@+id/weight"
+            android:id="@+id/ifyoualreadyhaveaccount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -92,7 +92,7 @@
             android:textSize="13sp" />
 
         <Button
-            android:id="@+id/minus_btn"
+            android:id="@+id/btn"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_radius"
@@ -115,7 +115,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/login"
+                android:id="@+id/login_Text_signup"
                 android:layout_width="15dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"

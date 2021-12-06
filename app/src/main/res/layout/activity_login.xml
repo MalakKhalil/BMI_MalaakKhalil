@@ -26,7 +26,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/weight"
+            android:id="@+id/ifyoualreadyhaveaccount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -48,21 +48,24 @@
             android:textColor="#676767"
             android:textSize="14sp"
             android:importantForAutofill="no" />
-
-        <EditText
-            android:id="@+id/passwordLogin"
-            android:layout_width="340dp"
+        <com.google.android.material.textfield.TextInputLayout
+            app:passwordToggleEnabled="true"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:drawableEnd="@drawable/ic_visibility_off_black_24dp"
             android:ems="10"
-            android:inputType="textPassword"
-            android:minHeight="48dp"
-            android:hint="@string/password"
-            android:textColor="#676767"
-            android:textSize="14sp"
+            android:inputType="textPersonName"
+            android:hint="Password">
 
-            android:importantForAutofill="no" />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordinlogin"
+                android:layout_width="340dp"
+                android:layout_height="match_parent"
+                android:ems="15"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
 
         <Button
             android:id="@+id/log_in_btn"
