@@ -50,6 +50,9 @@
     <string name="datenew_record">Date</string>
     <string name="time">Time</string>
     <string name="inputtime">Time</string>
+    <string name="hi_mohammed">Hi Mohammed</string>
+    <string name="current_status">Current Status</string>
+    <string name="normal_still_good">Normal (Still good)</string>
 
 
 </resources>

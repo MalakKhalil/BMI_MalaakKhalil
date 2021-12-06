@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".element_of_BMI_record"
     android:id="@+id/cv"
+    android:background="@color/blue"
     >
 
 </androidx.recyclerview.widget.RecyclerView>
