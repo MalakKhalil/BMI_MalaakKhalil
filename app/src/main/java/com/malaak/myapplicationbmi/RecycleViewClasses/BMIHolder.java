@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class BMIHolder extends RecyclerView.ViewHolder {
-private View itemView;
+    private View itemView;
 
     public BMIHolder(@NonNull View itemView) {
         super(itemView);

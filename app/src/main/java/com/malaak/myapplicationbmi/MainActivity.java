@@ -15,18 +15,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         thread();
-                b1=findViewById(R.id.btn);
+        b1=findViewById(R.id.btn);
 
-                b1.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent intent=new Intent(MainActivity.this,Login.class);
-                        startActivity(intent);
-                    }
-                });
-
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,Login.class);
+                startActivity(intent);
             }
-            public void thread(){
+        });
+
+    }
+    public void thread(){
         Thread thread=new Thread(){
             @Override
             public void run(){
@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         thread.start();
-            }
-        }
+    }
+}
 
 
 
