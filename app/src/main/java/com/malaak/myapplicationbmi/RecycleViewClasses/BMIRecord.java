@@ -1,21 +1,28 @@
 package com.malaak.myapplicationbmi.RecycleViewClasses;
 
 public class BMIRecord {
-    String msg,date;
-    int weight,length;
-
-    public BMIRecord(String date,int weight,int length){
+    private int length,weight;
+    private String msg,date;
+    public BMIRecord(String date, int weight , String msg, int length) {
+        this.length=length;
+        this.msg = msg;
         this.date=date;
         this.weight=weight;
-        this.length=length;
+    }
+    public int getLength() {
+        return length;
     }
 
-    public String getDate() {
-        return date;
+    public void setLength(int length) {
+        this.length = length;
     }
 
-    public void setDate(String date) {
-        this.date = date;
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
     }
 
     public int getWeight() {
@@ -26,11 +33,15 @@ public class BMIRecord {
         this.weight = weight;
     }
 
-    public int getLength() {
-        return length;
+
+    public String getDate() {
+        return date;
     }
 
-    public void setLength(int length) {
-        this.length = length;
+    public void setDate(String date) {
+        this.date = date;
     }
+
+
+
 }
