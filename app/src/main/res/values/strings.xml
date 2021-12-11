@@ -20,7 +20,6 @@
     <string name="kg">kg</string>
     <string name="cm">cm</string>
     <string name="zeroweight">0</string>
-    <string name="name">Name</string>
     <string name="e_mail">E-Mail</string>
     <string name="create">Create</string>
     <string name="login">Login</string>
@@ -53,6 +52,15 @@
     <string name="hi_mohammed">Hi Mohammed</string>
     <string name="current_status">Current Status</string>
     <string name="normal_still_good">Normal (Still good)</string>
+    <string name="photo_of_food">Photo</string>
+    <string name="imagei">TODO</string>
+    <string name="calory">Calory</string>
+    <string name="cal_g">cal/g</string>
+    <string name="save">Save</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="category">Category</string>
+    <string name="food_details">Food Details</string>
+    <string name="name">Name</string>
 
 
 </resources>
