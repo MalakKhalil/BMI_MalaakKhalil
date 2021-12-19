@@ -42,6 +42,7 @@
                 android:textStyle="bold" />
 
             <LinearLayout
+                android:id="@+id/Radio_Group"
                 android:layout_width="328dp"
                 android:layout_height="51dp"
                 android:orientation="horizontal">
@@ -59,21 +60,26 @@
                     android:textStyle="bold" />
 
                 <RadioGroup
+
+                    android:id="@+id/radio_group"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
 
                     <RadioButton
+
                         android:id="@+id/male"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="50dp"
                         android:height="48dp"
+                        android:checked="true"
                         android:minHeight="48dp"
                         android:text="@string/male"
                         android:textColor="@color/blue"
                         android:textSize="16sp"
-                        tools:ignore="TextContrastCheck" />
+                        tools:ignore="TextContrastCheck"
+                    />
 
                     <RadioButton
                         android:id="@+id/female"
@@ -84,7 +90,9 @@
                         android:text="@string/female"
                         android:textColor="@color/blue"
                         android:textSize="16sp"
-                        tools:ignore="TextContrastCheck" />
+                        tools:ignore="TextContrastCheck"
+
+                    />
                 </RadioGroup>
 
             </LinearLayout>
@@ -132,13 +140,12 @@
                         android:layout_weight="1"
                         android:background="@android:color/transparent"
                         android:ems="10"
-                        android:hint="@string/zeroweight"
                         android:importantForAutofill="no"
                         android:inputType="number"
                         android:minHeight="48dp"
 
                         android:textAlignment="center"
-                        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+                        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck,SpeakableTextPresentCheck" />
 
                     <Button
                         android:id="@+id/minusWeight"
@@ -208,13 +215,12 @@
                         android:layout_weight="1"
                         android:background="@android:color/transparent"
                         android:ems="10"
-                        android:hint="@string/zero"
                         android:importantForAutofill="no"
                         android:inputType="number"
                         android:minHeight="48dp"
 
                         android:textAlignment="center"
-                        tools:ignore="TextContrastCheck" />
+                        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
 
                     <Button
 
@@ -265,11 +271,10 @@
                     android:layout_marginStart="2dp"
                     android:background="@drawable/border"
                     android:ems="10"
-                    android:hint="@string/dateofbirdth"
                     android:importantForAutofill="no"
                     android:inputType="date"
                     android:minHeight="48dp"
-                    tools:ignore="TextContrastCheck" />
+                    tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
             </LinearLayout>
 
             <Button

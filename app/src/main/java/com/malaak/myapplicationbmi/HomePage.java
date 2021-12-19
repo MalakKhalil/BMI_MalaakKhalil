@@ -5,6 +5,7 @@ import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -40,13 +41,30 @@ RecyclerView rv;
 
         TextView underline=(TextView) findViewById(R.id.underline_logout);
         underline.setPaintFlags(underline.getPaintFlags()| Paint.UNDERLINE_TEXT_FLAG);
-
-
-        Button btn =findViewById(R.id.addFood_btn);
-        btn.setOnClickListener(new View.OnClickListener() {
+/*addrecord_btn*/
+        Button add_record=findViewById(R.id.addrecord_btn);
+        add_record.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(HomePage.this,Food_List.class);
+                Intent ii=new Intent(HomePage.this,NewRecord.class);
+                startActivity(ii);
+            }
+        });
+
+        Button add_food =findViewById(R.id.addFood_btn);
+        add_food.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(HomePage.this,add_food_details.class);
+                startActivity(i);
+            }
+        });
+
+        TextView underline_logout=findViewById(R.id.underline_logout);
+        underline_logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(HomePage.this,Login.class);
                 startActivity(i);
             }
         });

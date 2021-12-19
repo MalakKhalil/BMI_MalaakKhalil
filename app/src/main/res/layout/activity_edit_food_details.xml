@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".add_food_details"
     android:orientation="vertical"
+
     >
 
     <include layout="@layout/toolbarwithicon"
@@ -24,13 +25,11 @@
         android:textStyle="bold" />
 
     <LinearLayout
-        android:layout_gravity="center"
-        android:layout_marginStart="20dp"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-
-        >
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/name_of_food"
@@ -64,12 +63,11 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_gravity="center"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginStart="20dp"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:orientation="horizontal"
 
         >
 
@@ -119,11 +117,10 @@
     <LinearLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="20dp"
         android:layout_gravity="center"
-        >
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/calory_of_food"
@@ -170,51 +167,37 @@
 
     </LinearLayout>
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/Photo_of_food"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal">
+        android:layout_marginStart="50dp"
+        android:layout_weight="1"
+        android:minWidth="48dp"
+        android:text="@string/photo_of_food"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/Photo_of_food"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_weight="1"
-            android:minWidth="48dp"
-            android:text="@string/photo_of_food"
-            android:textColor="@color/blue"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
-    <LinearLayout
+    <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_marginTop="20dp"
-            android:id="@+id/imageView2"
-            android:layout_width="match_parent"
-            android:layout_height="261dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/salad"
-            android:contentDescription="@string/imagei" />
-    </LinearLayout>
+        android:layout_height="261dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/imagei"
+        app:srcCompat="@drawable/salad" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/upload_photo_btn"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
@@ -222,20 +205,19 @@
             android:background="@drawable/rounded_radius"
             android:text="@string/upload_photo"
             android:textColor="@color/white"
-            tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
-            style="?android:attr/buttonBarButtonStyle" />
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
         <Button
             android:id="@+id/save_btn"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/rounded_radius"
             android:text="@string/save"
-            android:textColor="@color/white"
 
-            tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:textColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
     </LinearLayout>
 
 </LinearLayout>

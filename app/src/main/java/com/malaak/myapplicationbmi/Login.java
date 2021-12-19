@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -21,7 +20,7 @@ public class Login extends AppCompatActivity {
         Username=findViewById(R.id.Username);
         password=findViewById(R.id.passwordinlogin);
         Login=findViewById(R.id.log_in_btn);
-        SignUp=findViewById(R.id.sign_up);
+        SignUp=findViewById(R.id.sign_up_text_in_loginpage);
 
 
         Login.setOnClickListener(new View.OnClickListener() {
@@ -29,6 +28,13 @@ public class Login extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i=new Intent(Login.this,HomePage.class);
                 startActivity(i);
+            }
+        });
+        SignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iii=new Intent(Login.this,SignUp.class);
+                startActivity(iii);
             }
         });
 
