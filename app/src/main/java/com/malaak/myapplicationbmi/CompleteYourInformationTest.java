@@ -20,6 +20,7 @@ public class CompleteYourInformationTest extends AppCompatActivity {
     Button increment_Weight;
     Button decrement_Weight;
     int count=0;
+    int count1=0;
     Button Increment_high;
     Button Decrement_high;
     EditText high;
@@ -52,8 +53,14 @@ public class CompleteYourInformationTest extends AppCompatActivity {
             decrement_Weight.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    count--;
-                    Wieght.setText(String.valueOf(count));
+                    if (count<0){
+                        Wieght.setText(String.valueOf(0));
+                    }
+                    else {
+
+                        Wieght.setText(String.valueOf(count));
+                        count--;
+                    }
                 }
             });
 
@@ -66,15 +73,23 @@ public class CompleteYourInformationTest extends AppCompatActivity {
         Increment_high.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                count++;
-                high.setText(String.valueOf(count));
+                count1++;
+                high.setText(String.valueOf(count1));
+
             }
         });
         Decrement_high.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                count--;
-                high.setText(String.valueOf(count));
+                if (count1<=0){
+                    high.setText(String.valueOf(0));
+                }
+                else {
+                    high.setText(String.valueOf(count1));
+                    count1--;
+
+                }
+
             }
         });
 
