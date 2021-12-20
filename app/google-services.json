@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1077636713401",
+    "firebase_url": "https://myapplicationbmi-default-rtdb.firebaseio.com",
+    "project_id": "myapplicationbmi",
+    "storage_bucket": "myapplicationbmi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077636713401:android:1315fad0a09e8f0eaa0468",
+        "android_client_info": {
+          "package_name": "com.malaak.myapplicationbmi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077636713401-jrud2dt11ouql32pv0c2b2feev1us7f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1tD5DI3pL-MuNtoCxZRVBX9Ias5E8Y8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077636713401-jrud2dt11ouql32pv0c2b2feev1us7f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
