@@ -22,7 +22,6 @@ public class SignUp extends AppCompatActivity {
         setContentView(R.layout.activity_sign_up);
         name=findViewById(R.id.Username);
         email=findViewById(R.id.e_mail);
-        signUp_password=findViewById(R.id.password);
         Repassword=findViewById(R.id.re_password);
         create=findViewById(R.id.btn);
         login=findViewById(R.id.login_Text_signup);
@@ -30,7 +29,7 @@ public class SignUp extends AppCompatActivity {
         create.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(SignUp.this,completeInformation.class);
+                Intent intent=new Intent(SignUp.this,CompleteYourInformationTest.class);
                 startActivity(intent);
             }
         });

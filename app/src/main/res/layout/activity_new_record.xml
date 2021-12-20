@@ -145,7 +145,7 @@
                         tools:ignore="TextContrastCheck" />
 
                     <EditText
-                        android:id="@+id/zero"
+                        android:id="@+id/zeroHigh"
                         android:layout_width="70dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -244,7 +244,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/save_data"
+               android:id="@+id/saveinNewRecord"
                 android:layout_width="326dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"

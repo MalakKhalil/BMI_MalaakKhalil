@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".add_food_details"
     android:orientation="vertical"
-    android:layout_gravity="center"
-    android:gravity="center"
+
     >
 
     <include layout="@layout/toolbarwithicon"
 
         />
+
 
     <TextView
         android:layout_marginTop="30dp"
@@ -24,6 +24,7 @@
         android:textColor="@color/blue"
         android:textSize="20sp"
         android:textStyle="bold" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -67,6 +68,7 @@
 
         </LinearLayout>
 
+
         <LinearLayout
             android:layout_width="300dp"
             android:layout_height="wrap_content"
@@ -78,40 +80,25 @@
 
             <TextView
                 android:id="@+id/category_of_food"
-                android:layout_width="92dp"
+                android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="23dp"
                 android:layout_weight="1"
-                android:text="@string/category"
+                android:text="category"
                 android:textColor="@color/blue"
 
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <EditText
-                android:id="@+id/editTextTextPersonName6"
-                android:layout_width="155dp"
+            <Spinner
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@drawable/border"
-                android:ems="10"
-                android:importantForAutofill="no"
-                android:inputType="textPersonName"
-                android:minHeight="48dp"
-                tools:ignore="SpeakableTextPresentCheck" />
+                style="@android:style/Widget.Spinner"
+                android:id="@+id/spinner1"
+                android:entries="@array/Category"
+                />
 
-            <ImageButton
-                android:id="@+id/imageButton"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/border"
-                android:contentDescription="TODO"
 
-                android:minWidth="48dp"
-                android:minHeight="48dp"
-                app:srcCompat="@drawable/ic_arrow_drop_downone"
-                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         </LinearLayout>
 
@@ -126,7 +113,7 @@
                 android:id="@+id/calory_of_food"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="60dp"
+                android:layout_marginEnd="55dp"
                 android:text="@string/calory"
                 android:textColor="@color/blue"
                 android:textSize="18sp"
@@ -163,12 +150,13 @@
 
         </LinearLayout>
 
+
         <TextView
             android:id="@+id/Photo_of_food"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="35dp"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:minWidth="48dp"
@@ -176,6 +164,7 @@
             android:textColor="@color/blue"
             android:textSize="18sp"
             android:textStyle="bold" />
+
     </LinearLayout>
 
 
@@ -220,5 +209,8 @@
             tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
             style="?android:attr/buttonBarButtonStyle" />
     </LinearLayout>
+
+
+
 
 </LinearLayout>

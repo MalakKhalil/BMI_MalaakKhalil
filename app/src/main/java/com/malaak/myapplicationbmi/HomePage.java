@@ -5,7 +5,6 @@ import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,9 +13,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.malaak.myapplicationbmi.RecycleViewClasses.BMIAdapter;
 import com.malaak.myapplicationbmi.RecycleViewClasses.BMIRecord;
+
 import  java.util.*;
 public class HomePage extends AppCompatActivity {
 RecyclerView rv;
+Button view_Food;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +47,7 @@ RecyclerView rv;
         add_record.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ii=new Intent(HomePage.this,NewRecord.class);
+                Intent ii=new Intent(HomePage.this, NewRecord.class);
                 startActivity(ii);
             }
         });
@@ -55,7 +56,7 @@ RecyclerView rv;
         add_food.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(HomePage.this,add_food_details.class);
+                Intent i=new Intent(HomePage.this, add_food_details.class);
                 startActivity(i);
             }
         });
@@ -64,11 +65,18 @@ RecyclerView rv;
         underline_logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(HomePage.this,Login.class);
+                Intent i=new Intent(HomePage.this, Login.class);
                 startActivity(i);
             }
         });
-
+        view_Food =findViewById(R.id.ViewFood);
+        view_Food.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ii=new Intent(HomePage.this, Food_List.class);
+                startActivity(ii);
+            }
+        });
 
 
 /*

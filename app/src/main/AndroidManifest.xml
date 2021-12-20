@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationBMI">
         <activity
+            android:name=".CompleteYourInformationTest"
+            android:exported="false" />
+        <activity
             android:name=".EditFoodDetails"
             android:exported="false" />
         <activity
@@ -23,12 +26,6 @@
             android:exported="false" />
         <activity
             android:name=".HomePage"
-            android:exported="false" />
-        <activity
-            android:name=".CompleteYourInformation"
-            android:exported="false" />
-        <activity
-            android:name=".completeInformation"
             android:exported="false" />
         <activity
             android:name=".SignUp"

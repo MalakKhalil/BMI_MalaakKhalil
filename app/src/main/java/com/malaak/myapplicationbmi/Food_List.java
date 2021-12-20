@@ -4,7 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import com.malaak.myapplicationbmi.foodrecycleview.Food;
 import com.malaak.myapplicationbmi.foodrecycleview.FoodAdapter;
@@ -31,5 +34,19 @@ RecyclerView re_v;
         re_v.setHasFixedSize(true);
         re_v.setLayoutManager(lm);
         re_v.setAdapter(adapter);
+
+        Button edit;
+        edit=findViewById(R.id.button_edit1);
+        /*
+        edit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iii=new Intent(Food_List.this,Login.class);
+                startActivity(iii);
+            }
+        });
+
+         */
+
     }
 }

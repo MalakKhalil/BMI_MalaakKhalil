@@ -100,7 +100,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/ViewFood"
         android:layout_width="315dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

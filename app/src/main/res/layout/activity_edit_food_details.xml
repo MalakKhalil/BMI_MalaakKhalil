@@ -82,35 +82,13 @@
 
             android:textSize="18sp"
             android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/editTextTextPersonName6"
-            android:layout_width="155dp"
+        <Spinner
+            android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/border"
-            android:ems="10"
-            android:importantForAutofill="no"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:paddingLeft="10dp"
-            android:text="Fish"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            tools:ignore="SpeakableTextPresentCheck" />
-
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/border"
-            android:contentDescription="TODO"
-
-            android:minWidth="48dp"
-            android:minHeight="48dp"
-            app:srcCompat="@drawable/ic_arrow_drop_downone"
-            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            style="@android:style/Widget.Spinner"
+            android:id="@+id/spinner1"
+            android:entries="@array/Category"
+            />
 
     </LinearLayout>
 

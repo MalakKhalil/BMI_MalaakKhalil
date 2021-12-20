@@ -10,21 +10,23 @@
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/drawable/ic_visibility_off_black_24dp.xml" value="0.2203125" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/drawable/leftarrow.xml" value="0.2203125" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/drawable/rounded_radius.xml" value="0.13148148148148148" />
-        <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_add_food_details.xml" value="0.22" />
+        <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_add_food_details.xml" value="0.20634920634920634" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_complete_information.xml" value="0.22" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_complete_your_information.xml" value="0.33" />
+        <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_complete_your_information_test.xml" value="0.33" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_edit_food_details.xml" value="0.33" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_element_of_bmi_record.xml" value="0.25" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_food_list.xml" value="0.25" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_home_page.xml" value="0.25" />
-        <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_new_record.xml" value="0.25" />
-        <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_splash.xml" value="0.18" />
+        <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_test.xml" value="0.1721014492753623" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/activity_viewelementin_one_group.xml" value="0.33" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/element_of_bmi_record.xml" value="0.22" />
-        <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/food_list_item.xml" value="0.8043010752688172" />
+        <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/food_list_item.xml" value="0.18" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/toolbar.xml" value="0.1" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/layout/toolbarwithicon.xml" value="0.18" />
         <entry key="..\:/Users/Mas/AndroidStudioProjects/MyApplicationBMI/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />

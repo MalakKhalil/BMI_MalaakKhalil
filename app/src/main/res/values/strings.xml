@@ -63,4 +63,14 @@
     <string name="name">Name</string>
 
 
+    <string-array name="Category">
+        <item>Fruit</item>
+        <item>Vegetables</item>
+        <item>Starchy food</item>
+        <item>Dairy</item>
+        <item>Protein</item>
+        <item>Fat</item>
+    </string-array>
+
+
 </resources>

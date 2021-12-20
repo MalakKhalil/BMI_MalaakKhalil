@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CompleteYourInformation"
+    tools:context=".CompleteYourInformationTest"
     android:orientation="vertical"
     >
     <include layout="@layout/toolbar" />
@@ -79,7 +79,7 @@
                         android:textColor="@color/blue"
                         android:textSize="16sp"
                         tools:ignore="TextContrastCheck"
-                    />
+                        />
 
                     <RadioButton
                         android:id="@+id/female"
@@ -92,7 +92,7 @@
                         android:textSize="16sp"
                         tools:ignore="TextContrastCheck"
 
-                    />
+                        />
                 </RadioGroup>
 
             </LinearLayout>
@@ -209,7 +209,7 @@
                         tools:ignore="TextContrastCheck" />
 
                     <EditText
-                        android:id="@+id/zero"
+                        android:id="@+id/zeroHigh"
                         android:layout_width="70dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -278,7 +278,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/save_data"
+                android:id="@+id/savebtn"
                 android:layout_width="334dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
