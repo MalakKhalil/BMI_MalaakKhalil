@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 
 public class NewRecord extends AppCompatActivity {
     EditText Wieght;
@@ -29,6 +30,17 @@ public class NewRecord extends AppCompatActivity {
         Increment_high= findViewById(R.id.plusHeight);
         Decrement_high=findViewById(R.id.minus);
         high=findViewById(R.id.zeroHigh);
+        ImageView backicon;
+        backicon=findViewById(R.id.backicon3);
+        backicon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iii=new Intent(NewRecord.this,HomePage.class);
+                startActivity(iii);
+            }
+        });
+
+
 
         increment_Weight.setOnClickListener(new View.OnClickListener() {
             @Override

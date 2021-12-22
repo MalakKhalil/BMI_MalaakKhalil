@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.malaak.myapplicationbmi.foodrecycleview.Food;
 import com.malaak.myapplicationbmi.foodrecycleview.FoodAdapter;
@@ -34,6 +35,15 @@ RecyclerView re_v;
         re_v.setHasFixedSize(true);
         re_v.setLayoutManager(lm);
         re_v.setAdapter(adapter);
+        ImageView v1;
+        v1=findViewById(R.id.backicon3);
+        v1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iii=new Intent(Food_List.this,add_food_details.class);
+                startActivity(iii);
+            }
+        });
 
         Button edit;
         edit=findViewById(R.id.button_edit1);

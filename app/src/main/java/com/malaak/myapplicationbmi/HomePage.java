@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.malaak.myapplicationbmi.RecycleViewClasses.BMIAdapter;
 import com.malaak.myapplicationbmi.RecycleViewClasses.BMIRecord;
 
@@ -100,6 +101,13 @@ Button view_Food;
 
     }*/
 
-    }
 
+
+    }
+public  void Logout(View view){
+    FirebaseAuth.getInstance().signOut();
+    startActivity(new Intent(getApplicationContext(),Login.class));
+    finish();
+
+}
 }

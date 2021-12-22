@@ -7,7 +7,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
-import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -23,6 +22,7 @@ Button btn;
 ImageView img;
 Button saveinFoodDetails;
 private static final int PICK_IMAGE=100;
+ImageView backIcon;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +34,14 @@ private static final int PICK_IMAGE=100;
             @Override
             public void onClick(View v) {
                 Intent iii=new Intent(add_food_details.this,Food_List.class);
+                startActivity(iii);
+            }
+        });
+        backIcon=findViewById(R.id.backicon3);
+        backIcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iii=new Intent(add_food_details.this,NewRecord.class);
                 startActivity(iii);
             }
         });

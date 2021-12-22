@@ -63,16 +63,19 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="340dp"
             android:layout_height="wrap_content"
-            android:hint="enter password"
+            android:hint="Password"
             app:passwordToggleEnabled="true"
+            android:id="@+id/passwordinsignup"
             >
-            <com.google.android.material.textfield.TextInputEditText
+
+            <EditText
+                android:id="@+id/passinsignup"
                 android:layout_width="340dp"
-                android:layout_gravity="center"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"
+                android:layout_gravity="center"
                 android:ems="15"
-                />
+                android:inputType="textPassword"
+                tools:ignore="SpeakableTextPresentCheck" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
